@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <script>
         function insertValue(value) {
             const display = document.querySelector('input[name="display"]');
@@ -42,7 +42,7 @@
                     <input type="button" value="AC" onclick="clearDisplay()" class="operator">
                     <input type="button" value="DE" onclick="deleteLast()" class="operator">
                     <input type="button" value="." onclick="insertValue('.')" class="operator">
-                    <input type="button" value="/" onclick="insertValue('/')" class="operator" >
+                    <input type="button" value="/" onclick="insertValue('/')" class="operator">
                 </div>
                 <div>
                     <input type="button" value="7" onclick="insertValue('7')">
@@ -54,7 +54,7 @@
                     <input type="button" value="4" onclick="insertValue('4')">
                     <input type="button" value="5" onclick="insertValue('5')">
                     <input type="button" value="6" onclick="insertValue('6')">
-                    <input type="button" value="-" onclick="insertValue('-')" class="operator" >
+                    <input type="button" value="-" onclick="insertValue('-')" class="operator">
                 </div>
                 <div>
                     <input type="button" value="1" onclick="insertValue('1')">
@@ -65,7 +65,7 @@
                 <div>
                     <input type="button" value="00" onclick="insertValue('00')">
                     <input type="button" value="0" onclick="insertValue('0')">
-                    <input type="button" value="=" class="equal" onclick="calculateResult()" class="operator" >
+                    <input type="button" value="=" class="equal" onclick="calculateResult()">
                 </div>
             </form>
         </div>
